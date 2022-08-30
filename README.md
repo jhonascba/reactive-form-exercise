@@ -1,5 +1,7 @@
 # ReactiveFormExercise
 
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angularjs/angularjs-plain.svg" width="40" height="40" />
+
 Create a Form with the following Controls and Validators <br>
 1 - Project Name (should not be empty) <br>
 2 - Mail (should not be an empty and a valid email) <br>
