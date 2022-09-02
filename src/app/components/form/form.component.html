@@ -1,0 +1,19 @@
+<div class="fcontainer">
+  <form class="form" [formGroup]="projectForm">
+    <div class="form__input-div">
+      <label for="project-name">Project Name</label>
+      <input type="text" id="project-name" formControlName="projectName" />
+    </div>
+    <div class="form__input-div">
+      <label for="mail">Mail</label>
+      <input type="email" id="mail" formControlName="mail" />
+    </div>
+    <div class="form__input-div">
+      <label for="status">Status</label>
+      <select name="status" id="status" formControlName="status">
+        <option *ngFor="let s of status" [ngValue]="s">{{ s }}</option>
+      </select>
+    </div>
+    <button type="button" class="form__button">Submit</button>
+  </form>
+</div>

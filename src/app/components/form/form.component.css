@@ -1,0 +1,28 @@
+.fcontainer {
+  width: 50vw;
+  display: flex;
+  justify-content: center;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  row-gap: 15px;
+}
+
+.form__input-div {
+  display: flex;
+  flex-direction: column;
+  min-width: 300px;
+  max-width: 450px;
+}
+
+.form__input-div:first-child {
+  margin-top: 20px;
+}
+
+.form__button {
+  align-self: center;
+}
+
+
